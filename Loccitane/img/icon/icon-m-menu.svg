@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_34280" data-name="사각형 34280" width="28" height="28" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_34282" data-name="사각형 34282" width="21" height="21" transform="translate(0.475 0.474)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_40953" data-name="그룹 40953" transform="translate(15 -72)">
+    <g id="그룹_40862" data-name="그룹 40862" transform="translate(-61 16)">
+      <g id="그룹_40340" data-name="그룹 40340" transform="translate(46 56)" opacity="0" clip-path="url(#clip-path)">
+        <rect id="사각형_34279" data-name="사각형 34279" width="28" height="28" fill="#f1a6a8"/>
+      </g>
+      <g id="그룹_40343" data-name="그룹 40343" transform="translate(49.526 59.526)" opacity="0" clip-path="url(#clip-path-2)">
+        <rect id="사각형_34281" data-name="사각형 34281" width="21" height="21" transform="translate(0.475 0.474)" fill="#001976"/>
+      </g>
+      <rect id="사각형_34283" data-name="사각형 34283" width="28" height="28" transform="translate(46 56)" fill="none"/>
+      <rect id="사각형_34284" data-name="사각형 34284" width="21" height="2" transform="translate(50 62)" fill="#1a1311"/>
+      <rect id="사각형_34285" data-name="사각형 34285" width="21" height="2" transform="translate(50 69)" fill="#1a1311"/>
+      <rect id="사각형_34286" data-name="사각형 34286" width="21" height="2" transform="translate(50 76)" fill="#1a1311"/>
+      <rect id="사각형_34287" data-name="사각형 34287" width="28" height="28" transform="translate(46 56)" fill="none"/>
+    </g>
+  </g>
+</svg>

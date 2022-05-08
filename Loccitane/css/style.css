@@ -1,0 +1,79 @@
+/*===========================================================================
+ 메인페이지
+============================================================================*/
+main { position: relative; top: 0; } 
+main .main-banner img { width: 100vw; height: 100vh; } 
+main .main-banner .swiper-slide { position: relative; } 
+main .main-banner .txt-box { position: absolute; right: 100px; top: 300px; z-index: 100; text-align: right; } 
+main .main-banner .txt-box h2 { color: #fff; font-size: 45px; letter-spacing: -.9px; text-shadow: 0 2px 20px rgb(0 0 0 / 50%); } 
+main .main-banner .txt-box p { margin-top: 20px; color: #fff; font-size: 16px; font-weight: 400; line-height: 1.5; text-shadow: 0 2px 20px rgb(0 0 0 / 40%); } 
+main .main-banner .swiper-pagination-progressbar .swiper-pagination-progressbar-fill { background: #FFCB00; } 
+main .main-banner .swiper-pagination-progressbar { background: #fff; top: initial; bottom: 0; height: 10px; } 
+main .main-banner .more-btn { margin-top: 30px; padding: 10px 30px; font-size: 14px; color: #fff; border: 2px solid hsla(0,0%,100%,.5); } 
+main .main-banner .more-btn:hover { background: #fff; color: #000; } 
+
+main .sec01 { padding: 80px 0; } 
+main .sec01 .rec-pro-tit { font-size: 30px; margin-bottom: 40px; font-weight: 500; } 
+main .sec01 .rec-con-group { display: flex; flex-wrap: wrap; justify-content: space-between; } 
+main .sec01 .rec-con-group li { width: calc(50% - 16px); } 
+
+main .sec02 { padding: 80px 0; background: #f4f4f4; } 
+main .sec02 .new-pro-tit { font-size: 30px; margin-bottom: 40px; font-weight: 500; } 
+main .sec02 .new-con-group { display: flex; flex-wrap: wrap; justify-content: space-between; } 
+main .sec02 .new-con-group li { margin-bottom: 16px; padding: 0 30px; width: calc(100% / 4); text-align: center; word-break: keep-all; } 
+main .sec02 .new-con-group li img { width: 100%; } 
+main .sec02 .new-con-group .txt-box { margin-top: 20px; } 
+main .sec02 .new-con-group .product-name { font-size: 14px; font-weight: 500; line-height: 1.5; } 
+main .sec02 .new-con-group .price { font-size: 14px; margin-top: 35px; color: #505050; font-weight: 500; } 
+main .sec02 .new-con-group li:last-child .price { margin-top: 10px; } 
+
+main .sec03 { padding: 80px 0; margin-bottom: 100px; } 
+main .sec03 .nxt-pro-tit { font-size: 30px; font-weight: 500; margin-bottom: 40px; } 
+main .sec03 .con-box ul { display: flex; justify-content: space-between; } 
+main .sec03 .con-box li { width: calc(100% / 3 - 20px); overflow: hidden; position: relative; } 
+main .sec03 .con-box li .txt-box { opacity: 0; background: #eee; position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-align: center; display: flex; flex-direction: column; justify-content: center; transition: 0.3s ease-in-out; } 
+main .sec03 .con-box li:hover .txt-box { opacity: 1; z-index: 500; } 
+main .sec03 .con-box li h3 { color: #000; font-size: 16px; font-weight: 700; } 
+main .sec03 .con-box li p { padding: 20px 30px; font-size: 13px; font-weight: 300; line-height: 1.25; } 
+main .sec03 .con-box li .more { margin-top: 20px; color: #000; font-size: 14px; border: 1px solid rgba(0,0,0,.2); padding: 10px 20px; } 
+main .sec03 .con-box li img { transition: 0.3s ease-in-out; } 
+main .sec03 .con-box li:hover img { transform: scale(1.2); } 
+.video_wrap { position: relative; width: 100%; height: 0; padding-bottom: 100%; } 
+.video_wrap iframe { position: absolute; width: 100%; height: 100%; } 
+
+/* main .sec03 .txt-box { width: 668px; background: rgba(122, 122, 122, 0.4); text-align: center; margin: 0 auto; color: #fff; padding: 120px 64px; } */
+/* main .sec03 .txt-box .tit { font-size: 23px; margin-bottom: 6px; margin-bottom: 6px; } */
+/* main .sec03 .txt-box p { font-size: 20px; line-height: 1.5; } */
+
+/*===========================================================================
+ 반응형
+============================================================================*/
+@media (max-width: 768px) { 
+    main { text-align: center; } 
+    main .main-banner .txt-box { width: 100%; text-align: center; top: initial; right: initial; left: 50%; transform: translateX(-50%); bottom: 100px; } 
+    main .main-banner .txt-box h2 { font-size: 34px; } 
+    main .main-banner .txt-box p { margin-top: 10px; font-size: 14px; } 
+    main .main-banner .more-btn { margin-top: 20px; font-size: 12px; padding: 10px 30px; } 
+    main .sec01 { padding-top: 60px; } 
+    main .sec01 .rec-con-group li { width: 100%; } 
+    main .sec01 .rec-con-group li:nth-child(2) { margin-top: 30px; } 
+    main .sec02 { padding-top: 60px; } 
+    main .sec02 .new-con-group li { width: calc(100% / 2); } 
+    main .sec03 { padding-top: 60px; } 
+    main .sec03 .con-box ul { flex-direction: column; } 
+    main .sec03 .con-box li { width: 100%; margin-top: 30px; } 
+    main .sec03 .con-box li:first-child { margin-top: 0; } 
+    main .sec03 .txt-box { width: 100%; } 
+    .pop-wrap { display: none; position: fixed; z-index: 1000; top: 0; left: 0; width: 100vw; height: 100vh; padding: 0 20px; background: #fff; } 
+    .pop-wrap .pop-head { display: flex; justify-content: right; padding-top: 20px; } 
+    .pop-wrap .pop-head .img-box { width: 30px; } 
+    .pop-wrap.show { display: block; } 
+    .pop-wrap .pop-body { display: flex; flex-direction: column; padding-top: 32px; }
+    .pop-wrap .pop-body a { font-size: 22px; color: #333; line-height: 42px; letter-spacing: -.7px; font-weight: 500; } 
+    .pop-wrap .sns-group { position: absolute; left: 0; bottom: 0; border-top: 1px solid #dbdbdb;  width: 100%;}
+    .pop-wrap .sns-group a { width: 38px; height: 38px; }
+}
+
+@media (max-width: 480px) { 
+    main .sec02 .new-con-group li { width: calc(100%); } 
+}

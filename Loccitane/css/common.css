@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100; 300; 400; 500; 700; 900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200; 300; 400; 500; 600; 700; 900&display=swap');
+/*===========================================================================
+    CSS 초기화
+============================================================================*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,
+aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,
+nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; box-sizing: border-box; font-family: 'Open Sans','Noto Sans KR','Noto Serif KR'; /* 영어폰트는 한글폰트 없음 */
+
+ /* 박스 안으로 패딩 마진 값 적용 */}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,
+nav,section { display: block; } 
+body { line-height: 1; } 
+ol,ul { list-style: none; } 
+blockquote,q { quotes: none; } 
+blockquote:before,blockquote:after,q:before,q:after { content: ""; content: none; } 
+table { border-collapse: collapse; border-spacing: 0; } 
+input:focus { outline: none; } 
+a { color: inherit; text-decoration: none; display: inline-block; } 
+img { width: 100%; object-fit: cover; } 
+.container { width: 1240px; height: 100%; margin: 0 auto; padding: 0 20px; } 
+button { background: none; border: none; } 
+
+
+/*===========================================================================
+    헤더
+============================================================================*/
+.m-menu-pop-wrap { display: none; } 
+header { padding: 10px 0;  width: 100%; position: fixed; top: 0; z-index: 100;  transition:0.4s;} 
+header.active {background-color: #ffcb00;}
+header .container .header-wrap { display: flex; justify-content: right; align-items: center;  }
+header .logo { width: 200px; position: absolute; left: 50%; transform: translateX(-50%); } 
+header .all-promo { margin-left: 40px; font-size: 18px; color: #191919; } 
+header nav { display: flex; align-items: center; }
+header nav a { width: 18px; padding: 25px 0;  margin-left: 30px; font-size: 16px; color: #37250f; font-weight: 400; } 
+header .menu { display: flex; justify-content: center;  width: 100%; }
+header .menu li {  margin-right: 40px;  padding: 15px 20px; font-size: 20px; letter-spacing: .9px; color: #fff; }
+header .m-menu-btn { display: none; } 
+header .m-menu-btn div { width: 25px; height: 2px; background: #fff; margin-bottom: 7px; border-radius: 3px; } 
+header .m-menu-btn div:last-child { margin-bottom: 0; }
+header .box {visibility: visible; z-index: 2000; position: fixed; top:20%; left:20%; width: 500px; height: 500px; background-color: #000; transition:0.4s;  animation: show 1s;}
+header .box.hide {visibility: hidden; animation: hide 1s; }
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+/*===========================================================================
+    푸터
+============================================================================*/
+footer { position: relative; bottom: 0; padding: 32px 0; background: #434343; } 
+footer .container { display: flex; justify-content: center; } 
+footer .link-group { margin-bottom: 20px; text-align: center; } 
+footer .link-group a { color: #999; font-size: 18px; padding-right: 20px; } 
+footer .info-group { display: flex; justify-content: center; margin: 20px 0 13px; } 
+footer .info-group p { position: relative; font-size: 15px; color: #999999; margin-right: 30px; } 
+footer .info-group p::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); right: -15px; width: 1px; height: 10px; background: #999; } 
+footer .info-group p:last-child { font-size: 15px; color: #999999; margin-right: 0; } 
+footer .info-group p:last-child::after { display: none; } 
+footer .copyright { text-align: center; font-size: 13px; font-weight: 300; color: #767676; } 
+footer .sns-group { width: 100%; margin: 40px 0 40px; text-align: center; } 
+footer .sns-group a { width: 30px; margin-right: 20px; } 
+
+/*===========================================================================
+    반응형
+============================================================================*/
+@media (max-width: 1240px){
+  .container { width: 100%; } 
+}
+@media (max-width: 768px) { 
+  header { padding: 0; }
+  header .menu { display: none; }
+  header .logo { width: 150px; }
+  header .shopping-bag-btn, header .user-btn { display: none; } 
+  header .search-btn { width: 20px; }
+  header .m-menu-btn { display: block; margin-left: 15px; } 
+}
+
+

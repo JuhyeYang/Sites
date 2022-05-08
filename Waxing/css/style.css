@@ -1,0 +1,380 @@
+/*===========================================================================
+ 왁싱공통
+============================================================================*/
+.pc-waxing-wrap section h3 { font-size: 20px; color: #525B4C; line-height: 1.45; font-weight: 800; } 
+.pc-waxing-wrap section .sub-tit { font-size: 18px; color: #525B4C; line-height: 1.44; } 
+.pc-waxing-wrap section .txt-box h2 { font-size: 30px; color: #525b4c; line-height: 1.46; font-weight: 800;}
+.pc-waxing-wrap section>.txt-box p { margin-top: 43px; font-size: 18px; color: #525b4c; line-height: 1.44;}
+.pc-waxing-wrap .con-group h4 { font-size: 18px; color: #525b4c; line-height: 1.44; font-weight: 600; } 
+.pc-waxing-wrap .con-group p { margin-top: 12px; font-size: 14px; color: #525b4C;  } 
+.pc-waxing-wrap .mob { display: none; } 
+
+/*===========================================================================
+ 왁싱메인
+============================================================================*/
+
+.pc-waxing-wrap { display: block; } 
+.pc-waxing-wrap .sec01,.pc-waxing-wrap .sec03,.pc-waxing-wrap .sec05,.pc-waxing-wrap .sec07 { display: flex; height: 100%; } 
+.pc-waxing-wrap section > .img-box { width: 50%}
+.pc-waxing-wrap section > .txt-box { width: 50%; background: #F2EFE9; display: flex; justify-content: center; align-items: center; } 
+.pc-waxing-wrap .sec01 .txt-box>div,.pc-waxing-wrap .sec05 .txt-box>div,.pc-waxing-wrap .sec07 .txt-box>div
+{ width: calc(100% - 404px); } 
+.pc-waxing-wrap .sec01 p,.pc-waxing-wrap .sec03 p,.pc-waxing-wrap .sec05 p,.pc-waxing-wrap .sec07 p { word-break: break-all; } 
+.pc-waxing-wrap .sec02,.pc-waxing-wrap .sec04,.pc-waxing-wrap .sec06,.pc-waxing-wrap .sec08,.pc-waxing-wrap .sec10
+{ background: #F8F7F5; padding-top: 132px; } 
+.pc-waxing-wrap .sec02 .container { padding-bottom: 223px; } 
+.pc-waxing-wrap .sec02 .container>.txt-box,.pc-waxing-wrap .sec04 .container>.txt-box,.pc-waxing-wrap .sec06 .container>.txt-box,
+.pc-waxing-wrap .sec08 .container>.txt-box
+{width: 100%; text-align: center; } 
+.pc-waxing-wrap .sec02 ul,.pc-waxing-wrap .sec04 ul,.pc-waxing-wrap .sec06 ul,.pc-waxing-wrap .sec08 ul
+{ display: flex; justify-content: space-between; } 
+.pc-waxing-wrap .sec02 ul { margin-top: 83px; } 
+.pc-waxing-wrap .sec02 li,.pc-waxing-wrap .sec04 li,.pc-waxing-wrap .sec06 li,.pc-waxing-wrap .sec08 li
+{ width: calc(100% / 5); text-align: center; display: flex; flex-direction: column; justify-content: baseline; align-items: center; } 
+.pc-waxing-wrap li .ico-img-box { display: block; width: 88px; height: 88px; } 
+
+
+.pc-waxing-wrap .sec02 li:first-child .ico-img-box { background: url(../images/01.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec02 li:nth-child(2) .ico-img-box { background: url(../images/02.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec02 li:nth-child(3) .ico-img-box { background: url(../images/03.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec02 li:nth-child(4) .ico-img-box { background: url(../images/04.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec02 li:nth-child(5) .ico-img-box { background: url(../images/05.png)no-repeat center / contain; }
+
+.pc-waxing-wrap .sec02 li .txt-box,
+.pc-waxing-wrap .sec04 li .txt-box,
+.pc-waxing-wrap .sec06 li .txt-box,
+.pc-waxing-wrap .sec08 li .txt-box { margin-top: 40px; } 
+
+.pc-waxing-wrap .sec03 .img-box { width: 40%; height: 100%; } 
+.pc-waxing-wrap .sec03 .txt-box { width: 60%; background: #F2EFE9; } 
+.pc-waxing-wrap .sec03 .txt-box>div{ padding-right: 421px; padding-left: 202px; } 
+
+.pc-waxing-wrap .sec04 .container { padding-bottom: 131px; } 
+.pc-waxing-wrap .sec04 ul { margin-top: 70px; } 
+.pc-waxing-wrap .sec04 li:first-child .ico-img-box { background: url(../images/06.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec04 li:nth-child(2) .ico-img-box { background: url(../images/07.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec04 li:nth-child(3) .ico-img-box { background: url(../images/08.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec04 li:nth-child(4) .ico-img-box { background: url(../images/09.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec04 li:nth-child(5) .ico-img-box { background: url(../images/10.png)no-repeat center / contain; } 
+
+.pc-waxing-wrap .sec06 .container { padding-bottom: 191px; } 
+.pc-waxing-wrap .sec06 ul { margin-top: 80px; } 
+.pc-waxing-wrap .sec06 li:first-child .ico-img-box { background: url(../images/11.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec06 li:nth-child(2) .ico-img-box { background: url(../images/12.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec06 li:nth-child(3) .ico-img-box { background: url(../images/13.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec06 li:nth-child(4) .ico-img-box { background: url(../images/14.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec06 li:nth-child(5) .ico-img-box { background: url(../images/15.png)no-repeat center / contain; } 
+
+
+.pc-waxing-wrap .sec08 .container { padding-bottom: 191px; } 
+.pc-waxing-wrap .sec08 ul { margin-top: 88px; } 
+.pc-waxing-wrap .sec08 li:first-child .ico-img-box { background: url(../images/15.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec08 li:nth-child(2) .ico-img-box { background: url(../images/16.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec08 li:nth-child(3) .ico-img-box { background: url(../images/14.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec08 li:nth-child(4) .ico-img-box { background: url(../images/17.png)no-repeat center / contain; } 
+.pc-waxing-wrap .sec08 li:nth-child(5) .ico-img-box { background: url(../images/18.png)no-repeat center / contain; } 
+
+.pc-waxing-wrap .sec09,
+.pc-waxing-wrap .sec10 { background: #F2EFE9; display: flex;}
+
+.pc-waxing-wrap .sec09 .container,
+.pc-waxing-wrap .sec10 .container { padding-top: 132px; padding-bottom: 193px;}
+
+
+.pc-waxing-wrap .sec09 .container>.txt-box,
+.pc-waxing-wrap .sec10 .container>.txt-box { width: 100%; text-align: center; } 
+
+.pc-waxing-wrap .sec09 ul,
+.pc-waxing-wrap .sec10 ul { margin-top: 93px; width: 100%; } 
+
+.pc-waxing-wrap .sec09 li,
+.pc-waxing-wrap .sec10 li { display: flex; align-items: center; justify-content: center; padding: 50px 50px; border-bottom: 1px solid #ddd;}
+
+.pc-waxing-wrap .sec09 li:first-child,
+.pc-waxing-wrap .sec10 li:first-child { padding-top: 0; } 
+
+.pc-waxing-wrap .sec09 li:last-child,
+.pc-waxing-wrap .sec10 li:last-child { border-bottom: none;}
+
+.pc-waxing-wrap .sec09 li .img-box,
+.pc-waxing-wrap .sec10 li .img-box { width: 88px; } 
+
+.pc-waxing-wrap .sec09 li .txt-box,
+.pc-waxing-wrap .sec10 li .txt-box { margin-left: 119px;}
+
+.pc-waxing-wrap .sec09 li h4,
+.pc-waxing-wrap .sec10 li h4 { font-size: 18px; color: #525B4C; line-height: 1.44; } 
+
+.pc-waxing-wrap .sec09 li p,
+.pc-waxing-wrap .sec10 li p { margin-top: 12px; font-size: 14px; color: #525B4C; width: 100%;}
+
+.pc-waxing-wrap .sec10 { background: #F8F7F5;}
+.pc-waxing-wrap .sec10 li:nth-child(2) .img-box { padding: 8px 26px; } 
+
+/*===========================================================================
+ 왁싱반응형
+============================================================================*/
+@media(max-width: 1300px) {
+    .pc-waxing-wrap .sec01 .txt-box>div, .pc-waxing-wrap .sec03 .txt-box>div, .pc-waxing-wrap .sec05 .txt-box>div,.pc-waxing-wrap .sec07 .txt-box>div
+    { width: calc(100% - 60px) } 
+
+    .pc-waxing-wrap .sec03 .txt-box>div { padding-left: 40px; padding-right: 40px; } 
+
+    .pc-waxing-wrap .container{ display: flex; flex-direction: column; justify-content: center; align-items: center;}
+ }
+
+@media(max-width: 1020px) {
+    
+    /* 공통 */
+    br.pc, br { display: none;}
+    .pc-waxing-wrap section > .txt-box h2 { margin-bottom: 30px; font-size: 20px; line-height: 1.45; }
+    .pc-waxing-wrap section > .txt-box p { margin-top: 2px; font-size: 13px; line-height: 1.46; }
+    .pc-waxing-wrap .con-group h4 { font-size: 16px; line-height: 1.43;}
+    .pc-waxing-wrap .con-group p {  font-size: 13px;  line-height: 1.46; }
+    .pc-waxing-wrap li .ico-img-box { width: 75px;  } 
+
+    /* 메인 */
+    .pc-waxing-wrap .sec01,  .pc-waxing-wrap .sec03, .pc-waxing-wrap .sec05, .pc-waxing-wrap .sec07 { flex-direction: column; text-align: center; } 
+    .pc-waxing-wrap .sec01 > div, .pc-waxing-wrap .sec05 > div,  .pc-waxing-wrap .sec07 > div  { width: 100%; } 
+    .pc-waxing-wrap .sec01 .txt-box, .pc-waxing-wrap .sec03 .txt-box, .pc-waxing-wrap .sec05 .txt-box, .pc-waxing-wrap .sec07 .txt-box  { padding: 73px 0 74px 0; }
+
+    .pc-waxing-wrap .sec02, .pc-waxing-wrap .sec06, .pc-waxing-wrap .sec08, .pc-waxing-wrap .sec10
+    { padding-top: 40px;  }
+
+    .pc-waxing-wrap section h3 { font-size: 20px; line-height: 1.45; }
+    .pc-waxing-wrap section .sub-tit { margin-top: 3px; font-size: 12px; line-height: 1.41; }
+
+    .pc-waxing-wrap .sec02 .container { padding: 0 28px 52px 37px; }
+    .pc-waxing-wrap .sec02 ul, .pc-waxing-wrap .sec04 ul, .pc-waxing-wrap .sec06 ul, .pc-waxing-wrap .sec08 ul
+     {flex-direction: column;  margin-top: 0;  }
+    .pc-waxing-wrap .sec02 li, .pc-waxing-wrap .sec04 li, .pc-waxing-wrap .sec06 li, .pc-waxing-wrap .sec08 li
+    { width: 100%; ; margin-top: 30px;  flex-direction: row; align-items: center; text-align: left; }
+   .pc-waxing-wrap .sec02 li .txt-box, .pc-waxing-wrap .sec06 li .txt-box, .pc-waxing-wrap .sec08 li .txt-box 
+    { width: calc(100% - 104px); margin-top: 0; margin-left: 30px; }
+
+
+    .pc-waxing-wrap .sec03 { flex-direction: column-reverse; }
+    .pc-waxing-wrap .sec03 .img-box, .pc-waxing-wrap .sec03 .txt-box { width: 100%;}
+    .pc-waxing-wrap .sec03 .txt-box>div { padding: 0; } 
+
+
+    .pc-waxing-wrap .sec04 { padding-top: 50px; }
+    .pc-waxing-wrap .sec04 .container { padding: 0 28px 52px 37px; }
+    .pc-waxing-wrap .sec04 li .txt-box { width: calc(100% - 104px); margin-left: 25px; margin-top: 0; }
+
+    .pc-waxing-wrap .sec06 .container { padding: 0 28px 52px 37px; }
+
+    .pc-waxing-wrap .sec07 { flex-direction: column-reverse; }
+
+    .pc-waxing-wrap .sec08 .container {
+        padding: 0 30px 43px 31px;
+    } 
+    .pc-waxing-wrap .sec09 .container { padding: 42px 0 40px; }     
+    .pc-waxing-wrap .sec010 .container { padding: 31px 0 112px; } 
+    
+    .pc-waxing-wrap .sec09 li,
+    .pc-waxing-wrap .sec10 li { width: 100%; padding: 24px 30px; } 
+    
+    .pc-waxing-wrap .sec09 li .img-box,
+    .pc-waxing-wrap .sec10 li .img-box { width: 52px; } 
+    
+    .pc-waxing-wrap .sec10 li:nth-child(2) .img-box { padding: 10px 10px; } 
+    
+    .pc-waxing-wrap .sec09 li .txt-box,
+    .pc-waxing-wrap .sec10 li .txt-box { width: calc(100% - 85px); margin-left: 33px; } 
+    
+    .pc-waxing-wrap .sec09 li h4,
+    .pc-waxing-wrap .sec10 li h4 { font-size: 16px; line-height: 1.43; } 
+    
+    .pc-waxing-wrap .sec09 li p,
+    .pc-waxing-wrap .sec10 li p { font-size: 13px; line-height: 1.46; word-break: break-all;}
+  
+ }    
+
+ @media(max-width: 768px) {
+    br.pc { display: none;}
+    br.mob, br { display: block;}
+    .pc-waxing-wrap li .ico-img-box { width: 63px;  } 
+    .pc-waxing-wrap .sec09 ul,
+    .pc-waxing-wrap .sec10 ul { width: 100%; margin-top: 24px; padding: 0 30px; }    
+    .pc-waxing-wrap .sec09 li,
+    .pc-waxing-wrap .sec10 li { width: 100%; padding: 24px 0; } 
+}
+
+
+/*===========================================================================
+ 스킨케어공통
+============================================================================*/
+.pc-skincare-wrap { display: block; } 
+.pc-skincare-wrap .top-txt-box { text-align: center; padding-top: 132px; } 
+.pc-skincare-wrap h2 { font-size: 30px; color: #525B4C; line-height: 1.46; font-weight: 800; } 
+.pc-skincare-wrap h3 { font-size: 20px; color: #525B4C; line-height: 1.45; font-weight: 800; } 
+.pc-skincare-wrap .sub-tit { margin-top: 3px; font-size: 18px; color: #525B4C; line-height: 1.44; } 
+.pc-skincare-wrap .mob { display: none; } 
+.pc-skincare-wrap .sec01 .txt-group,
+.pc-skincare-wrap .sec03 .txt-group { margin-top: 43px; } 
+.pc-skincare-wrap .txt-box { word-break: keep-all; } 
+
+/*===========================================================================
+ 스킨케어메인
+============================================================================*/
+.pc-skincare-wrap .sec01 { display: flex; height: 100%;}
+.pc-skincare-wrap .sec01>div { width: 50%; } 
+.pc-skincare-wrap .sec01 .txt-box { background: #F2EFE9; display: flex; justify-content: center; align-items: center; } 
+.pc-skincare-wrap .sec01 .txt-box p { font-size: 18px; color: #525B4C; line-height: 1.44; margin-top: 30px; } 
+
+.pc-skincare-wrap .sec02 { background: #F8F7F5;}
+.pc-skincare-wrap .sec02 .container { padding-bottom: 164px; display: flex; flex-direction: column; align-items: center;}
+.pc-skincare-wrap .sec02 ul { margin-top: 60px; } 
+.pc-skincare-wrap .sec02 li { display: flex; align-items: center; border-bottom: 1px solid #CCCBC7; padding: 0 100px; } 
+.pc-skincare-wrap .sec02 li:first-child { padding-bottom: 42px; } 
+.pc-skincare-wrap .sec02 li:nth-child(2) { padding-top: 42px; padding-bottom: 37px; } 
+.pc-skincare-wrap .sec02 li:nth-child(3) { padding-top: 55px; border: none; } 
+.pc-skincare-wrap .sec02 li .img-box { width: 87px;}
+.pc-skincare-wrap .sec02 li .txt-box { margin-left: 130px; } 
+.pc-skincare-wrap .sec02 li h4 { font-size: 18px; line-height: 1.44; color: #525B4C; } 
+.pc-skincare-wrap .sec02 p { margin-top: 12px; font-size: 14px; line-height: 1.42; color: #525B4C; } 
+
+.pc-skincare-wrap .sec03 { display: flex; } 
+.pc-skincare-wrap .sec03 .img-box { width: 50%; } 
+.pc-skincare-wrap .sec03 .txt-box { width: 50%; background: #F2EFE9; display: flex; justify-content: center; align-items: center; } 
+.pc-skincare-wrap .sec03 .txt-box p { margin-top: 30px; font-size: 18px; color: #525B4C; line-height: 1.44; } 
+
+.pc-skincare-wrap .sec04 { text-align: center; background: #F8F7F5;}
+.pc-skincare-wrap .sec04 .container { padding-bottom: 135px; } 
+.pc-skincare-wrap .sec04 p { margin-top: 71px; } 
+
+.pc-skincare-wrap .sec05,
+.pc-skincare-wrap .sec06 { background: #F2EFE9; display: flex;}
+
+.pc-skincare-wrap .sec05 .container,
+.pc-skincare-wrap .sec06 .container { padding-top: 132px; padding-bottom: 193px;}
+
+
+.pc-skincare-wrap .sec05 .container>.txt-box,
+.pc-skincare-wrap .sec06 .container>.txt-box { width: 100%; text-align: center; } 
+
+.pc-skincare-wrap .sec05 ul,
+.pc-skincare-wrap .sec06 ul { margin-top: 93px; width: 100%; /* max-width: 1230px; */}
+
+.pc-skincare-wrap .sec05 li,
+.pc-skincare-wrap .sec06 li { display: flex; align-items: center; justify-content: center; padding: 50px 50px;
+     border-bottom: 1px solid #ddd;
+}
+
+.pc-skincare-wrap .sec05 li:first-child,
+.pc-skincare-wrap .sec06 li:first-child { padding-top: 0; } 
+
+.pc-skincare-wrap .sec05 li:last-child,
+.pc-skincare-wrap .sec06 li:last-child { border-bottom: none;}
+
+.pc-skincare-wrap .sec05 li .img-box,
+.pc-skincare-wrap .sec06 li .img-box { width: 88px; } 
+
+.pc-skincare-wrap .sec05 li .txt-box,
+.pc-skincare-wrap .sec06 li .txt-box { margin-left: 119px;}
+
+
+.pc-skincare-wrap .sec05 li h4,
+.pc-skincare-wrap .sec06 li h4 { font-size: 18px; color: #525B4C; line-height: 1.44; } 
+
+.pc-skincare-wrap .sec05 li p,
+.pc-skincare-wrap .sec06 li p { margin-top: 12px; font-size: 14px; color: #525B4C; width: 100%;}
+
+.pc-skincare-wrap .sec06 { background: #F8F7F5;}
+.pc-skincare-wrap .sec06 li:nth-child(2) .img-box { padding: 8px 26px; } 
+
+
+
+/*===========================================================================
+ 스킨케어반응형
+============================================================================*/
+@media(max-width: 1120px){
+    .pc-skincare-wrap { display: block; } 
+        
+    
+    /* 공통 */
+    .pc-skincare-wrap h2,
+    .pc-skincare-wrap h3 { font-size: 20px; } 
+    
+    .pc-skincare-wrap .sub-tit { font-size: 12px; } 
+    
+    .pc-skincare-wrap .sec01 .txt-box p,
+    .pc-skincare-wrap .sec03 .txt-box p { font-size: 13px; margin-top: 20px;}
+    
+    
+    .pc-skincare-wrap .sec01,
+    .pc-skincare-wrap .sec03 { text-align: center; } 
+    
+    .pc-skincare-wrap .mob,
+    .pc-skincare-wrap .pc { display: none; } 
+    
+   
+    
+    /*스킨케어메인 */
+    .pc-skincare-wrap .sec01 .container>div { width: 100%; } 
+    .pc-skincare-wrap .sec01 .txt-box .txt-group { margin-top: 30px; } 
+    
+    .pc-skincare-wrap .sec02 .container { padding: 40px 42px 50px; } 
+    .pc-skincare-wrap .top-txt-box { padding-top: 0; } 
+    .pc-skincare-wrap .sec02 ul { margin-top: 40px; } 
+    .pc-skincare-wrap .sec02 li { flex-direction: column; padding: 0; } 
+    .pc-skincare-wrap .sec02 li:first-child { padding-bottom: 20px; } 
+    .pc-skincare-wrap .sec02 li:nth-child(2) { padding: 20px 0 29px; } 
+    .pc-skincare-wrap .sec02 li:nth-child(3) { padding-top: 20px; } 
+    .pc-skincare-wrap .sec02 li .mob-wrap { display: flex; justify-content: left; align-items: center;}
+    .pc-skincare-wrap .sec02 li .mob-wrap h4 { margin-left: 13px; font-size: 16px; } 
+    .pc-skincare-wrap .sec02 li .mob-wrap .mob { display: block; } 
+    .pc-skincare-wrap .sec02 li .img-box { width: 40px; } 
+    .pc-skincare-wrap .sec02 li .txt-box { margin-left: 0; word-break: keep-all; } 
+    .pc-skincare-wrap .sec02 p { font-size: 13px; line-height: 1.46; text-align: center; } 
+    
+    .pc-skincare-wrap .sec03 .container .txt-box { padding: 47px 0 46px; word-break: keep-all; } 
+    
+    .pc-skincare-wrap .sec04 .container { padding: 47px 25px 46px 25px; } 
+    .pc-skincare-wrap .sec04 p { margin-top: 30px; font-size: 13px; line-height: 1.46; word-break: keep-all; } 
+    
+    .pc-skincare-wrap .sec05 .container { padding: 42px 0 40px; } 
+    
+    .pc-skincare-wrap .sec06 .container { padding: 31px 0 112px; } 
+    
+    .pc-skincare-wrap .sec05 li,
+    .pc-skincare-wrap .sec06 li { width: 100%; padding: 24px 30px; } 
+    
+    .pc-skincare-wrap .sec05 li .img-box,
+    .pc-skincare-wrap .sec06 li .img-box { width: 52px; } 
+    
+    .pc-skincare-wrap .sec06 li:nth-child(2) .img-box { padding: 10px 10px; } 
+    
+    .pc-skincare-wrap .sec05 li .txt-box,
+    .pc-skincare-wrap .sec06 li .txt-box { width: calc(100% - 85px); margin-left: 33px; } 
+    
+    .pc-skincare-wrap .sec05 li h4,
+    .pc-skincare-wrap .sec06 li h4 { font-size: 16px; line-height: 1.43; } 
+    
+    .pc-skincare-wrap .sec05 li p,
+    .pc-skincare-wrap .sec06 li p { font-size: 13px; line-height: 1.46; word-break: break-all;}
+}
+
+@media(max-width: 768px) {
+    .pc-skincare-wrap .mob,
+    .pc-skincare-wrap .pc { display: none; } 
+
+    .pc-skincare-wrap .sec01 { flex-direction: column; } 
+    .pc-skincare-wrap .sec01>div { width: 100%; } 
+    .pc-skincare-wrap .sec01 img { width: 100%; } 
+    .pc-skincare-wrap .sec01 .txt-box { padding: 50px 31px;}
+
+    .pc-skincare-wrap .sec03 { flex-direction: column-reverse; } 
+    .pc-skincare-wrap .sec03 .img-box { width: 100%; } 
+    .pc-skincare-wrap .sec03 .txt-box { width: 100%; padding: 47px 32px 46px; } 
+    .pc-skincare-wrap .sec03 .txt-box p:nth-child(2) .pc { display: none; } 
+
+    .pc-skincare-wrap .sec04 .pc { display: none; } 
+
+    .pc-skincare-wrap .sec05 ul,
+    .pc-skincare-wrap .sec06 ul { width: 100%; margin-top: 24px; padding: 0 30px; }    
+    .pc-skincare-wrap .sec05 li,
+    .pc-skincare-wrap .sec06 li { width: 100%; padding: 24px 0; } 
+
+ } 
