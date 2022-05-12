@@ -52,9 +52,9 @@ header .m-menu-btn div:last-child { margin-bottom: 0; }
 footer { position: relative; bottom: 0; padding: 32px 0; background: #434343; } 
 footer .container { display: flex; justify-content: center; } 
 footer .link-group { margin-bottom: 20px; text-align: center; } 
-footer .link-group a { color: #999; font-size: 18px; padding-right: 20px; } 
+footer .link-group a { color: #999; font-size: 18px; font-weight: 500; padding-right: 20px; } 
 footer .info-group { display: flex; justify-content: center; margin: 20px 0 13px; } 
-footer .info-group p { position: relative; font-size: 15px; color: #999999; margin-right: 30px; } 
+footer .info-group p { position: relative; font-size: 15px; font-weight: 400; color: #999999; margin-right: 30px; } 
 footer .info-group p::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); right: -15px; width: 1px; height: 10px; background: #999; } 
 footer .info-group p:last-child { font-size: 15px; color: #999999; margin-right: 0; } 
 footer .info-group p:last-child::after { display: none; } 

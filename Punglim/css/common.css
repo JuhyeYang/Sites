@@ -51,7 +51,7 @@ header .menu-group { display: flex; position: relative; }
 header .menu-group ul { display: flex; align-items: center; padding-right: 100px; } 
 header .menu-group li a span { padding: 47px 21px; font-size: 18px; font-weight: 600; line-height: 1; color: #000; letter-spacing: -0.03em; display: block; white-space: nowrap; } 
 header .menu-group li { position: relative; } 
-header .menu-group li .list-group { display: none; background: #000; position: absolute; top: 130px; left: 50%; transform: translateX(-50%); padding: 28px 0 38px; transition: opacity 0.2s; } 
+header .menu-group li .list-group { display: none; background: #000; position: absolute; top: 112px; left: 50%; transform: translateX(-50%); padding: 28px 0 38px; transition: opacity 0.2s; } 
 header .menu-group li .list-group a { padding: 12px 40px; font-size: 16px; line-height: 1; letter-spacing: -0.03em; font-weight: 500; color: #bbb; white-space: nowrap; } 
 header .btn-group { display: flex; align-items: center; position: relative; }
 header .search-btn { position: absolute; top: 50%; right: 50px; margin-top: -3px; transform: translateY(-50%); background: url(../images/search-btn.png); width: 25px; height: 25px; background-size: cover; background-position: center; } 
@@ -64,7 +64,7 @@ header .m-logo, header .m-search-btn, header .m-menu-btn { display: none; }
 .sub-header { display: block;  background: #fff;}
 .sub-header .pc-logo { display: block; width: 160px; cursor: pointer; } 
 .sub-header .m-logo { display: none; } 
-.sub-header .search-btn { display: block; width: 20px; height: 20px; margin-top: -1px; right: 40px; } 
+.sub-header .search-btn { display: block; width: 30px; height: 30px; right: 40px; } 
 .sub-header .m-search-btn { display: none; } 
 .sub-header .m-menu-btn span { background: #000; }
 .sub-header .m-menu-btn.active span { background: #fff; }
