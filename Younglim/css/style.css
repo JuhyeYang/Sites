@@ -162,6 +162,7 @@ main .sec08 .container .brand .btn.active {  background: #fff; color: #333;} }
 @media(max-width: 768px) { 
     main .main-banner .txt-box p { padding: 6px 20px 0; font-size: 14px; line-height: 22px; } 
     main .main-banner .more-btn-wrap { padding: 0 28px; height: 31px; line-height: 31px; font-size: 12px; } 
+    main .main-banner .txt-box .tit { font-size: 34px; }
 
     main .sec01 { padding-top: 70px; } 
     main .sec01 .txt-box { margin-top: -20px; } 
